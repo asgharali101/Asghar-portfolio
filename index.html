@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio-page</title>
+</head>
+
+<body>
+  <div class="dark">
+    <div>
+      <!-- nav section start from here -->
+      <nav class="bg-white border-b-[1px] fixed z-20 w-full border-gray-400 shadow-lg">
+        <div class=" lg:container mx-auto justify-between flex items-center py-6 ">
+
+          <div class="flex  lg:text-3xl font-semibold lg:mr-2 mr-[2rem] mx-10">
+            <div class="relative">
+              <button onclick="showimageapplication()"
+                class=" border-solid border-[1px] border-gray-100 rounded-full focus:border-indigo-600 ">
+                <img class="w-10 h-10 rounded-full" src="./images/asghar burdi.jpg" alt="">
+              </button>
+
+              <div id="image-dropdown" class="bg-gray-100 rounded  absolute hidden py-2">
+                <div class=" text-start">
+                  <h2
+                    class="cursor-pointer text-base py-1  px-7 hover:bg-indigo-400 hover:text-white hover:underline rounded-b-none">
+                    Profile</h2>
+                </div>
+
+                <div class=" text-start">
+                  <h2
+                    class="cursor-pointer text-sm py-1  px-6 hover:bg-indigo-400 hover:text-white hover:underline rounded-b-none">
+                    Sign out</h2>
+                </div>
+
+                <div class=" text-start">
+                  <h2
+                    class="cursor-pointer text-base py-1  px-7 hover:bg-indigo-400 hover:text-white hover:underline rounded-b-none">
+                    Setting</h2>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="text-gray-900 italics">
+              Port<span class="text-red-500 ">Folio</span>
+            </h2>
+          </div>
+
+          <div
+            class=" group flex items-center  lg:text-lg text-xs  lg:font-medium lg:text-center space-x-2 lg:space-x-8 text-gray-800">
+
+            <a class="hover:text-gray-900 hover:underline" href="#Home-page">Home-page</a>
+            <a cla#ss="hover:text-gray-900 hover:underline" href="#About-me">About-me</a>
+            <a class="hover:text-gray-900 hover:underline" href="#services">services</a>
+            <a class="hover:text-gray-900 hover:underline" href="#Works">Works</a>
+            <a class="hover:text-gray-900 hover:underline" href="#contact">contact</a>
+            <button
+              class=" border-solid border-[1px] border-gray-100 rounded-full focus:border-indigo-600">
+
+              <img class="w-8 h-8" src="./images/icons8-notification.svg" alt="">
+            </button>
+
+
+          </div>
+
+      </nav>
+
+      <!-- mid section  -->
+
+      <div id="Home-page" class="lg:flex items-center h-[112vh]   lg:h-[88vh] container lg:mx-auto ">
+        <div class="lg:pl-20 pl-32 lg:pt-2 pt-32">
+          <h2 class="text-gray-600 lg:text-sm text-2xl font-semibold lg:w-[35%]">
+            freelance
+            <span class="text-red-600">designer</span>
+          </h2>
+          <h2 class="lg:pt-2 pt-3 text-gray-700 lg:text-4xl text-xl font-semibold">
+            I'm <span class="text-red-600">Asghar Burdi</span>
+          </h2>
+
+          <p class="lg:pb-1 pb-6 text-gray-700 w-80 lg:w-[26rem]  lg:text-sm text-base">From sehwan, sindh (pakistan).
+            learning web developing with lot's
+            of prayes of my whole family.
+          </p>
+
+          <button
+            class=" text-red-500 lg:text-xl text-base font-semibold  rounded-md py-1 px-4 border-[2px] border-red-300 hover:bg-pink-60 hover:border-red-400 hover:bg-red-600 hover:text-white"
+            href="#">Download CV
+          </button>
+
+
+        </div>
+
+        <div class="lg:ml-52 ml-44">
+          <img class="text-indigo-50 lg:w-[90%] lg:h-[65vh] w-[43%] h-[30vh] ml-2 rounded-xl" src="./images/3.jpg"
+            alt="">
+        </div>
+
+
+        <!-- relative -->
+
+        <div class="relative w-[30%]">
+          <div
+            class="bg-gray-50 lg:p-6 w-full shadow absolute  -top-[2rem] right-0  lg:-left-[1.1rem] left-80 lg:bottom-0 -bottom-96 h-48 border-solid border-gray-200 border-[1px] ">
+            <h2 class="text-gray-700 lg:text-2xl font-medium">
+              <span class="text-gray-800">Hello!! me'Ali</span>
+            </h2>
+
+            <p class="text-gray-700 lg:w-[22rem] pb-1 w-full lg:text-sm text-xs">From sehwan, sindh (pakistan). learning
+              web developing with lot's
+              of prayes of my whole family.
+            </p>
+
+            <button
+              class=" text-white lg:text-base font-semibold bg-blue-500 rounded-md py-1 px-4 border-[2px] border-blue-700 hover:bg-pink-60 hover:border-blue-400 hover:bg-blue-700 hover:text-white"
+              href="#">Hire me
+            </button>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- 3rd sectiom -->
+    <div class="container mx-auto ">
+      <div id="About-me" class="lg:flex  items-center pb-4 gap-x-8">
+
+        <div class="lg:h-96 lg:w-96  ml-44  overflow-hidden rounded-full p-6">
+          <img class="lg:w-[160%] lg:h-[170%] w-36 h-48" src="./images/3.jpg" alt="">
+        </div>
+
+        <div class="lg:pt-20 lg:ml-2 ml-12 lg:text-start  lg:w-[50%]">
+          <h1 class="font-medium text-indigo-600 lg:text-2xl text-lg lg:text-start text-center">ABOUT ME</h1>
+          <h1 class="font-medium text-xl lg:text-xl py-2 lg:py-2 lg:text-start text-center">Better Design</h1>
+          <h1 class="font-medium text-xl lg:text-xl lg:text-start text-center">Better Experience</h1>
+          <p class="text-gray-600 py-2 lg:py-4 lg:text-sm font-medium text-sm">As a web developer, I specialize in
+            designing, building, and maintaining websites and web applications that meet the needs of my clients. I have
+            a strong understanding of programming languages
+
+          </p>
+          <h1 class="text-gray-600 font-medium">HTML</h1>
+          <div class="w-full bg-indigo-300 h-1.5 rounded-md">
+            <div class="w-full bg-indigo-600 h-1.5 rounded-md mb-9"></div>
+          </div>
+
+          <h1 class="text-gray-600 font-medium pt-5">CSS</h1>
+          <div class="w-full bg-gray-300 h-1.5 rounded-md mb-5">
+            <div class="w-5/6 bg-indigo-600 h-[6px] rounded-md mb-9"></div>
+          </div>
+
+          <h1 class="text-gray-600 font-medium">JAVASCRIPT</h1>
+          <div class="w-full bg-gray-300 h-1.5 rounded-md">
+            <div class="w-2/6 bg-indigo-600 h-[6px] rounded-md mb-9"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- th section start from here -->
+    <div class="container mx-auto text-center pt-44">
+      <h2 id="services" class="text-indigo-600 text-xl font-semibold ">Services</h2>
+      <h1 class="text-2xl text-gray-700">What do I Offer?</h1>
+      <p class="lg:mx-72 text-gray-500 text-center py-2">My approach to website design is to create a website that
+        strengthens your company's brand while insuring ease of use and simplicity for your audience </p>
+    </div>
+
+    <!-- button card -->
+    <div class="container mx-auto p-5 flex lg:px-24 gap-x-4 py-1 pt-9 ">
+      <div
+        class="p-4  lg:w-full w-4/12 shadow-xl overflow-hidden rounded-lg flex flex-col gap-3 border-solid border-[1px] border-gray-300">
+        <img class="w-14 h-12" src="./images/ASghar burdi (1).png" alt="">
+        <h2 class="font-medium text-base lg:text-lg">web Design</h2>
+        <p class="text-gray-500 ">i become expert in this field give good response to every clients</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+
+      </div>
+
+      <div
+        class="p-4  lg:w-full w-4/12 shadow-xl overflow-hidden rounded-lg flex flex-col  gap-3 border-solid border-[1px] border-gray-300">
+        <img class="w-12 h-12 rounded-full" src="./images/asghar burdi.jpg" alt="">
+        <h2 class="font-medium text-base lg:text-lg">Github</h2>
+        <p class="text-gray-500">On Github <u class="text-gray-900">asgharburdi</u> is my account you can visit and know
+          about me</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+
+      </div>
+      <div
+        class="p-4  lg:w-full w-4/12 shadow-xl overflow-hidden rounded-lg flex flex-col gap-3 border-solid border-[1px] border-gray-300">
+        <img class="w-14 h-12 rounded-full" src="./images/ASghar burdi.png" alt="">
+        <h2 class="font-medium text-base lg:text-lg">Phython</h2>
+        <p class="text-gray-500">Untill i have no knowledge about this language untill trying </p>
+        <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+
+      </div>
+    </div>
+
+    <div class="container mx-auto p-5 flex lg:px-24 gap-x-4 pt-9 lg:pb-20 pb-28">
+      <div
+        class="p-4  lg:w-full w-4/12 shadow-xl overflow-hidden rounded-lg flex flex-col gap-3 border-solid border-[1px] border-gray-300">
+        <img class="w-12 h-12 rounded-full" src="./images/html.logo.png" alt="">
+        <h2 class="font-medium text-base lg:text-lg">HTML</h2>
+        <p class="text-gray-500 ">I seek more knowledge about it and i have more experience</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+
+      </div>
+
+      <div
+        class="p-4  lg:w-full w-4/12 shadow-xl overflow-hidden rounded-lg flex flex-col  gap-3 border-solid border-[1px] border-gray-300">
+        <img class="w-10 h-14 rounded-full" src="./images/css3.png" alt="">
+        <h2 class="font-medium text-base lg:text-lg">CSS</h2>
+        <p class="text-gray-500">I have well experience about this language now i am practicing</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+
+      </div>
+      <div
+        class="p-4  lg:w-full w-4/12 shadow-xl overflow-hidden rounded-lg flex flex-col gap-3 border-solid border-[1px] border-gray-300">
+        <img class="rounded-full w-10 h-10" src="./images/flowbiteui - Copy.png" alt="">
+        <h2 class="font-medium text-base lg:text-lg">JavaScript</h2>
+        <p class="text-gray-500">more tuff language in my career but i try to learn this,inshallah i shall got it</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+
+      </div>
+    </div>
+
+    <!-- pics-section start -->
+    <div id="Works" class="container mx-auto text-center pt-14">
+      <h2 class="text-indigo-600 text-xl font-semibold ">Portfolio</h2>
+      <h1 class="text-2xl text-gray-700 py-3">Works and projects</h1>
+      <p class="lg:mx-72 text-gray-500 text-center">My approach to website design is to create a website that
+        strengthens your company's brand while insuring ease of use and simplicity for your audience Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. </p>
+    </div>
+
+    <!-- imagrs -->
+    <div class="container mx-auto lg:flex gap-x-4 px-28 py-10 lg:space-y-2 space-y-9">
+
+      <div class="mt-2 cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl"
+          src="./images/landing-page (1).png" alt="">
+
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3 "
+            href="#">windyblocks
+          </a>
+        </div>
+
+      </div>
+
+      <div class="cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl" src="./images/tuk.jpg" alt="">
+
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3  mt-[2px]"
+            href="#">App landing page
+          </a>
+        </div>
+
+      </div>
+
+      <div class="cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl" src="./images/tails.jpg"
+          alt="">
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3  mt-[2px]"
+            href="#">admin-template
+          </a>
+        </div>
+      </div>
+
+      <div class="cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl" src="./images/tailkit.jpg"
+          alt="">
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3  mt-[2px]"
+            href="#">minimal-admin-template
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="container mx-auto lg:flex gap-x-4 px-28 py-9">
+
+      <div class="cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl" src="./images/profile-card.png"
+          alt="">
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3  mt-[2px]"
+            href="#">profile-card
+          </a>
+        </div>
+
+      </div>
+
+      <div class="cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl" src="./images/nordic-store.png"
+          alt="">
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3  mt-[2px]"
+            href="#">Nordic store
+          </a>
+        </div>
+
+      </div>
+
+      <div class="cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl"
+          src="./images/admin-template-night.png" alt="">
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3  mt-[2px]"
+            href="#">Centerd page
+          </a>
+        </div>
+
+      </div>
+
+      <div class="cursor-pointer">
+        <img class="w-[90%] h-[89%]  border-solid border-gray-300 border-[1px] shadow-xl" src="./images/tailkit.jpg"
+          alt="">
+        <div
+          class="lg:mb-1 mb-9 flex justify-center shadow-2xl items-center text-center border-solid border-gray-300 border-[1px] w-[90%]">
+          <a class=" rounded-b-md font-semibold text-base bg-white text-[rgb(70,133,128)]  w-full py-3  mt-[2px]"
+            href="#">Screenshot landing page
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="contact" class="container mx-auto text-center pt-32 pb-0">
+      <h2 class="text-indigo-600 text-2xl font-semibold ">contact</h2>
+      <h1 class="text-3xl text-gray-700 py-3">Have a Question?</h1>
+      <p class="lg:mx-72 text-gray-500 text-center">Do have a idea let's discuss about it and see what we do together
+      </p>
+    </div>
+
+
+    <!-- contact sec start -->
+    <form action="#" class="mx-auto mt-20 max-w-xl lg:mt-8">
+      <div class="grid grid-cols-1 gap-y-2 gap-x-8 sm:grid-cols-2">
+        <div>
+          <label for="Name" class="block text-sm font-semibold leading-6 text-gray-900">Name</label>
+          <div class="mt-1">
+            <input type="text" name="Name" id="Name" autocomplete="given-name"
+              class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600">
+          </div>
+        </div>
+        <div class="">
+          <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+          <div class="mt-1">
+            <input type="email" name="email" id="email" autocomplete="email"
+              class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600">
+          </div>
+        </div>
+        
+
+        <div class="sm:col-span-2">
+          <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
+          <div class="relative mt-1">
+            <div class="absolute inset-y-0 left-0 flex items-center">
+              <label for="country" class="sr-only">Country</label>
+              <select id="country" name="country"
+                class="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-sm text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600">
+                <option>US</option>
+                <option>pak</option>
+                <option>EU</option>
+              </select>
+              <svg class="pointer-events-none absolute top-0 right-3 h-full w-5 text-gray-400" viewBox="0 0 20 20"
+                fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd" />
+              </svg>
+            </div>
+            <input type="tel" name="phone-number" id="phone-number" autocomplete="tel"
+              class="block w-full rounded-md border-0 py-2 px-3.5 pl-20 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600">
+          </div>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+          <div class="mt-1">
+            <textarea name="message" id="message" rows="4"
+              class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600"></textarea>
+          </div>
+        </div>
+        <div class="flex gap-x-4 sm:col-span-2">
+          <div class="flex h-6 items-center">
+            <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
+            <button type="button"
+              class="bg-gray-200 flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              role="switch" aria-checked="false" aria-labelledby="switch-1-label">
+              <span class="sr-only">Agree to policies</span>
+              <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
+              <span
+                class="translate-x-0 h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
+            </button>
+          </div>
+          <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
+            By selecting this, you agree to our
+            <a href="#" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.
+          </label>
+        </div>
+      </div>
+      <div class="mt-4">
+        <button type="submit"
+          class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's
+          talk</button>
+      </div>
+    </form>
+  </div>
+
+
+  <!-- footer section start from here -->
+  <footer
+    class="bg-neutral-50 mt-20 text-center text-neutral-800 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+
+    
+
+    <div class="mx-auto container text-gray-800 py-10 text-center md:text-left">
+      <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div class="">
+          <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-3 h-4 w-4">
+              <path
+                d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
+            </svg>
+            Tailwind ELEMENTS
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer
+            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit.
+          </p>
+        </div>
+        <div class="text-gray-900">
+          <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            Products
+          </h6>
+          <p class="mb-4">
+            <a href="#!" class=" dark:text-neutral-200">Angular</a>
+          </p>
+          <p class="mb-4">
+            <a href="#!" class=" dark:text-neutral-200">React</a>
+          </p>
+          <p class="mb-4">
+            <a href="#!" class=" dark:text-neutral-200">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class=" dark:text-neutral-200">Laravel</a>
+          </p>
+        </div>
+        <div class="text-gray-800">
+          <h6 class="text-gray-800 mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            Useful links
+          </h6>
+          <p class="mb-4">
+            <a href="#!" class="dark:text-neutral-200">Pricing</a>
+          </p>
+          <p class="mb-4">
+            <a href="#!" class="dark:text-neutral-200">Settings</a>
+          </p>
+          <p class="mb-4">
+            <a href="#!" class="dark:text-neutral-200">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="dark:text-neutral-200">Help</a>
+          </p>
+        </div>
+        <div>
+          <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            Contact
+          </h6>
+          <p class="mb-4 flex items-center justify-center md:justify-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-3 h-5 w-5">
+              <path
+                d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+              <path
+                d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+            </svg>
+            New York, NY 10012, US
+          </p>
+          <p class="mb-4 flex items-center justify-center md:justify-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-3 h-5 w-5">
+              <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+              <path
+                d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+            </svg>
+            info@example.com
+          </p>
+          <p class="mb-4 flex items-center justify-center md:justify-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-3 h-5 w-5">
+              <path fill-rule="evenodd"
+                d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                clip-rule="evenodd" />
+            </svg>
+            + 01 234 567 88
+          </p>
+          <p class="flex items-center justify-center md:justify-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-3 h-5 w-5">
+              <path fill-rule="evenodd"
+                d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
+                clip-rule="evenodd" />
+            </svg>
+            + 01 234 567 89
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class=" bg-neutral-200 text-center text-gray-900">
+      <div class="container mx-auto px-6 pt-2">
+        <div class="mb-2 flex justify-center">
+          <a href="#!" type="button"
+            class="m-1 h-9 w-9 rounded-full border-2 border-indigo-900 uppercase leading-normal text-indigo-800 transition duration-150 ease-in-out  hover:bg-opacity-5 focus:outline-none focus:ring-2"
+            data-te-ripple-init data-te-ripple-color="light">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+            </svg>
+          </a>
+
+          <a href="#!" type="button"
+            class="m-1 h-9 w-9 rounded-full border-2 border-indigo-900 uppercase leading-normal text-indigo-900 transition duration-150 ease-in-out  hover:bg-opacity-5 focus:outline-none focus:ring-2"
+            data-te-ripple-init data-te-ripple-color="light">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+            </svg>
+          </a>
+
+          <a href="#!" type="button"
+            class="m-1 h-9 w-9 rounded-full border-2 border-indigo-900 uppercase leading-normal text-indigo-900 transition duration-150 ease-in-out  hover:bg-opacity-5 focus:outline-none focus:ring-2"
+            data-te-ripple-init data-te-ripple-color="light">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                fill-rule="evenodd" clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <a href="#!" type="button"
+            class="m-1 h-9 w-9 rounded-full border-2 border-indigo-900 uppercase leading-normal text-indigo-900 transition duration-150 ease-in-out  hover:bg-opacity-5 focus:outline-none focus:ring-2"
+            data-te-ripple-init data-te-ripple-color="light">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+          </a>
+
+          <a href="#!" type="button"
+            class="m-1 h-9 w-9 rounded-full border-2 border-indigo-900 uppercase leading-normal text-indigo-900 transition duration-150 ease-in-out  hover:bg-opacity-5 focus:outline-none focus:ring-2"
+            data-te-ripple-init data-te-ripple-color="light">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+            </svg>
+          </a>
+
+          <a href="#!" type="button"
+            class="m-1 h-9 w-9 rounded-full border-2 border-indigo-900 uppercase leading-normal text-indigo-900 transition duration-150 ease-in-out  hover:bg-opacity-5 focus:outline-none focus:ring-2"
+            data-te-ripple-init data-te-ripple-color="light">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div style="background-color: rgba(204, 204, 215, 0.499)">
+        <div class="container mx-auto p-4 text-center">
+          © 2023 Copyright:
+          <a class="text-whitehite" href="https://tailwind-elements.com/">Tailwind Elements</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  </div>
+  </div>
+
+  <!-- footer -->
+
+
+  <script type="module" src="/main.js"></script>
+
+  <script>
+    function showimageapplication() {
+      const imageDropdownElement = document.getElementById('image-dropdown')
+      if (imageDropdownElement.style.display === 'block') {
+        imageDropdownElement.style.display = 'none'
+      } else {
+        imageDropdownElement.style.display = 'block'
+      }
+    }
+
+    function darkmode() {
+      const user = {
+
+
+      }
+    }
+  </script>
+
+</body>
+
+</html>
